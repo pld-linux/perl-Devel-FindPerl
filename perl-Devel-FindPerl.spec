@@ -14,27 +14,10 @@ Group:		Development/Libraries
 Source0:	http://www.cpan.org/authors/id/L/LE/LEONT/Devel-FindPerl-%{version}.tar.gz
 # Source0-md5:	d1184cf3a5b3b3d06f75f40944934714
 URL:		http://search.cpan.org/dist/Devel-FindPerl/
+BuildRequires:	perl(Exporter) >= 5.57
 BuildRequires:	perl(ExtUtils::MakeMaker) >= 6.30
-BuildRequires:	perl(strict)
-BuildRequires:	perl(warnings)
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
-# Run-time:
-BuildRequires:	perl(Carp)
-BuildRequires:	perl(Config)
-BuildRequires:	perl(Cwd)
-BuildRequires:	perl(Exporter) >= 5.57
-BuildRequires:	perl(File::Basename)
-BuildRequires:	perl(File::Spec::Functions)
-BuildRequires:	perl(IPC::Open2)
-BuildRequires:	perl(Scalar::Util)
-# Tests:
-%if %{with tests}
-BuildRequires:	perl(File::Spec)
-BuildRequires:	perl(IO::Handle)
-BuildRequires:	perl(IPC::Open3)
-BuildRequires:	perl(Test::More)
-%endif
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
