@@ -4,7 +4,6 @@
 
 %define		pdir	Devel
 %define		pnam	FindPerl
-%include	/usr/lib/rpm/macros.perl
 Summary:	Find the path to the current Perl interpreter
 Name:		perl-Devel-FindPerl
 Version:	0.012
