@@ -7,7 +7,7 @@
 Summary:	Find the path to the current Perl interpreter
 Name:		perl-Devel-FindPerl
 Version:	0.012
-Release:	1
+Release:	2
 License:	GPL+ or Artistic
 Group:		Development/Libraries
 Source0:	http://www.cpan.org/authors/id/L/LE/LEONT/Devel-FindPerl-%{version}.tar.gz
